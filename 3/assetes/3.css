@@ -1,0 +1,27 @@
+.small-circule{
+    border-radius: 50%;
+  width: 30px;
+  height: 35px;
+  background-color: rgb(236, 165, 33);
+  color: black;
+
+}
+.circule {
+  border-radius: 50%;
+  width: 135px;
+  height: 121px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.circule1 {
+  background-image: url("./pic/4.1.png");
+}
+.circule2 {
+  background-image: url("./pic/4.2.png");
+}
+.circule3 {
+  background-image: url("./pic/4.3.png");
+}
+.circule4 {
+  background-image: url("./pic/4.4.png");
+}
