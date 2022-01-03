@@ -1,17 +1,10 @@
-.small-circule{
-    border-radius: 50%;
-  width: 30px;
-  height: 35px;
-  background-color: rgb(236, 165, 33);
-  color: black;
-
-}
 .circule {
   border-radius: 50%;
-  width: 135px;
+  width: 133px;
   height: 121px;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
 }
 .circule1 {
   background-image: url("./pic/4.1.png");
@@ -24,4 +17,26 @@
 }
 .circule4 {
   background-image: url("./pic/4.4.png");
+}
+.small-circule {
+  border-radius: 50%;
+  width: 30px;
+  height: 31px;
+  background-color: rgb(236, 165, 33);
+  color: black;
+  position: absolute;
+  top: -5px;
+  right: 11px;
+}
+.absolute{
+  position:absolute;
+  top:39px;
+  right:-120px;
+}
+
+@media (max-width: 1200px) {
+  .absolute{
+    display: none;
+  }
+  
 }
